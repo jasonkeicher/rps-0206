@@ -1,3 +1,13 @@
 {
-    "extensions": ["github.github-vscode-theme", "github.copilot"]
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "extensions": ["github.github-vscode-theme", "github.copilot"]
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": ["github.github-vscode-theme", "github.copilot"]
+        }
+    }
 }
