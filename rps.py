@@ -14,7 +14,7 @@ def determine_winner(user_choice, computer_choice):
        (user_choice == 'paper' and computer_choice == 'rock'):
         return 'User wins'
     else:
-        return 'Computer wins'
+        return 'Computer wins'   
 
 def play_game(user_choice):
     computer_choice = get_computer_choice()
